@@ -1,0 +1,424 @@
+04/05 08:15:14 PM ============================================================
+04/05 08:15:14 PM NEW RUN  20260405-201514
+04/05 08:15:14 PM ============================================================
+04/05 08:15:14 PM args = Namespace(workers=2, batch_size=96, learning_rate=0.025, learning_rate_min=0.0, momentum=0.9, weight_decay=0.0003, report_freq=50, epochs=25, init_channels=16, layers=5, cutout=False, cutout_length=16, drop_path_prob=0.3, save='E:\\Project R1\\pdarts-master\\checkpointssearch-ransomware_xss_search', seed=2, grad_clip=5, train_portion=0.5, arch_learning_rate=0.0006, arch_weight_decay=0.001, tmp_data_dir='E:\\Project R1\\pdarts-master\\data', note='ransomware_xss_search', dropout_rate=['0.1', '0.4', '0.7'], add_width=['0'], add_layers=['0', '6', '12'], num_classes=2, in_channels=1, train_images_file='train-images-idx3-ubyte', train_labels_file='train-labels-idx1-ubyte', test_images_file='t10k-images-idx3-ubyte', test_labels_file='t10k-labels-idx1-ubyte')
+04/05 08:15:14 PM param size = 1.273138MB
+04/05 08:15:14 PM Epoch: 0 lr: 2.480326e-02
+04/05 08:15:42 PM TRAIN Step: 000 Objs: 8.163418e-01 R1: 16.666666 R5: 100.000000
+04/05 08:16:17 PM Train_acc 89.130432
+04/05 08:16:17 PM Epoch time: 63s
+04/05 08:16:17 PM Epoch: 1 lr: 2.431662e-02
+04/05 08:16:49 PM TRAIN Step: 000 Objs: 1.298955e-02 R1: 100.000000 R5: 100.000000
+04/05 08:17:25 PM Train_acc 99.396133
+04/05 08:17:25 PM Epoch time: 67s
+04/05 08:17:25 PM Epoch: 2 lr: 2.364669e-02
+04/05 08:18:08 PM TRAIN Step: 000 Objs: 4.262228e-02 R1: 98.958328 R5: 100.000000
+04/05 08:18:42 PM Train_acc 99.396133
+04/05 08:18:42 PM Epoch time: 77s
+04/05 08:18:42 PM Epoch: 3 lr: 2.280398e-02
+04/05 08:19:20 PM TRAIN Step: 000 Objs: 2.638671e-02 R1: 98.958328 R5: 100.000000
+04/05 08:19:56 PM Train_acc 99.275361
+04/05 08:19:56 PM Epoch time: 73s
+04/05 08:19:56 PM Epoch: 4 lr: 2.180176e-02
+04/05 08:20:26 PM TRAIN Step: 000 Objs: 2.617456e-03 R1: 100.000000 R5: 100.000000
+04/05 08:21:02 PM Train_acc 99.516908
+04/05 08:21:02 PM Epoch time: 66s
+04/05 08:21:02 PM Epoch: 5 lr: 2.065578e-02
+04/05 08:21:45 PM TRAIN Step: 000 Objs: 2.552219e-03 R1: 100.000000 R5: 100.000000
+04/05 08:22:22 PM Train_acc 99.879226
+04/05 08:22:22 PM Epoch time: 79s
+04/05 08:22:22 PM Epoch: 6 lr: 1.938408e-02
+04/05 08:23:01 PM TRAIN Step: 000 Objs: 2.817999e-03 R1: 100.000000 R5: 100.000000
+04/05 08:23:42 PM Train_acc 99.879226
+04/05 08:23:42 PM Epoch time: 79s
+04/05 08:23:42 PM Epoch: 7 lr: 1.800667e-02
+04/05 08:24:25 PM TRAIN Step: 000 Objs: 7.852365e-04 R1: 100.000000 R5: 100.000000
+04/05 08:25:05 PM Train_acc 99.879226
+04/05 08:25:05 PM Epoch time: 82s
+04/05 08:25:05 PM Epoch: 8 lr: 1.654521e-02
+04/05 08:25:47 PM TRAIN Step: 000 Objs: 1.403327e-04 R1: 100.000000 R5: 100.000000
+04/05 08:26:27 PM Train_acc 100.000000
+04/05 08:26:27 PM Epoch time: 81s
+04/05 08:26:27 PM Epoch: 9 lr: 1.502271e-02
+04/05 08:27:08 PM TRAIN Step: 000 Objs: 1.554357e-03 R1: 100.000000 R5: 100.000000
+04/05 08:27:47 PM Train_acc 100.000000
+04/05 08:27:47 PM Epoch time: 80s
+04/05 08:27:47 PM Epoch: 10 lr: 1.346310e-02
+04/05 08:28:22 PM TRAIN Step: 000 Objs: 7.870345e-04 R1: 100.000000 R5: 100.000000
+04/05 08:29:29 PM Train_acc 100.000000
+04/05 08:29:29 PM Epoch time: 101s
+04/05 08:29:29 PM Epoch: 11 lr: 1.189091e-02
+04/05 08:30:09 PM TRAIN Step: 000 Objs: 5.684209e-04 R1: 100.000000 R5: 100.000000
+04/05 08:31:28 PM Train_acc 100.000000
+04/05 08:31:28 PM Epoch time: 119s
+04/05 08:31:28 PM Epoch: 12 lr: 1.033084e-02
+04/05 08:32:18 PM TRAIN Step: 000 Objs: 1.223038e-04 R1: 100.000000 R5: 100.000000
+04/05 08:33:32 PM Train_acc 100.000000
+04/05 08:33:32 PM Epoch time: 124s
+04/05 08:33:32 PM Epoch: 13 lr: 8.807384e-03
+04/05 08:34:16 PM TRAIN Step: 000 Objs: 9.328822e-05 R1: 100.000000 R5: 100.000000
+04/05 08:35:35 PM Train_acc 100.000000
+04/05 08:35:35 PM Epoch time: 122s
+04/05 08:35:35 PM Epoch: 14 lr: 7.344427e-03
+04/05 08:36:28 PM TRAIN Step: 000 Objs: 2.170709e-04 R1: 100.000000 R5: 100.000000
+04/05 08:37:47 PM Train_acc 100.000000
+04/05 08:37:47 PM Epoch time: 132s
+04/05 08:37:47 PM Epoch: 15 lr: 5.964861e-03
+04/05 08:38:30 PM TRAIN Step: 000 Objs: 4.642094e-05 R1: 100.000000 R5: 100.000000
+04/05 08:39:53 PM Train_acc 100.000000
+04/05 08:39:53 PM Epoch time: 125s
+04/05 08:39:53 PM Epoch: 16 lr: 4.690199e-03
+04/05 08:40:37 PM TRAIN Step: 000 Objs: 5.875299e-05 R1: 100.000000 R5: 100.000000
+04/05 08:41:54 PM Train_acc 100.000000
+04/05 08:41:54 PM Epoch time: 120s
+04/05 08:41:54 PM Epoch: 17 lr: 3.540202e-03
+04/05 08:42:38 PM TRAIN Step: 000 Objs: 7.725963e-05 R1: 100.000000 R5: 100.000000
+04/05 08:44:00 PM Train_acc 100.000000
+04/05 08:44:00 PM Epoch time: 125s
+04/05 08:44:00 PM Epoch: 18 lr: 2.532504e-03
+04/05 08:44:43 PM TRAIN Step: 000 Objs: 4.067744e-04 R1: 100.000000 R5: 100.000000
+04/05 08:45:52 PM Train_acc 100.000000
+04/05 08:45:52 PM Epoch time: 111s
+04/05 08:45:52 PM Epoch: 19 lr: 1.682209e-03
+04/05 08:46:32 PM TRAIN Step: 000 Objs: 1.228018e-04 R1: 100.000000 R5: 100.000000
+04/05 08:47:44 PM Train_acc 100.000000
+04/05 08:47:44 PM Epoch time: 112s
+04/05 08:47:44 PM Epoch: 20 lr: 1.001400e-03
+04/05 08:48:14 PM TRAIN Step: 000 Objs: 9.081158e-05 R1: 100.000000 R5: 100.000000
+04/05 08:49:30 PM Train_acc 100.000000
+04/05 08:49:30 PM Epoch time: 105s
+04/05 08:49:30 PM Epoch: 21 lr: 4.983436e-04
+04/05 08:50:15 PM TRAIN Step: 000 Objs: 7.563970e-05 R1: 100.000000 R5: 100.000000
+04/05 08:51:53 PM Train_acc 100.000000
+04/05 08:51:53 PM Epoch time: 143s
+04/05 08:52:16 PM valid 000 1.657736e-04 100.000000 100.000000
+04/05 08:52:30 PM Valid_acc 99.637679
+04/05 08:52:30 PM Epoch: 22 lr: 1.756922e-04
+04/05 08:53:17 PM TRAIN Step: 000 Objs: 5.907319e-04 R1: 100.000000 R5: 100.000000
+04/05 08:54:36 PM Train_acc 100.000000
+04/05 08:54:36 PM Epoch time: 125s
+04/05 08:54:56 PM valid 000 1.247261e-02 98.958328 100.000000
+04/05 08:55:11 PM Valid_acc 99.516906
+04/05 08:55:11 PM Epoch: 23 lr: 2.473910e-05
+04/05 08:55:52 PM TRAIN Step: 000 Objs: 1.520778e-04 R1: 100.000000 R5: 100.000000
+04/05 08:57:13 PM Train_acc 100.000000
+04/05 08:57:13 PM Epoch time: 122s
+04/05 08:57:35 PM valid 000 2.328925e-04 100.000000 100.000000
+04/05 08:57:49 PM Valid_acc 99.637679
+04/05 08:57:49 PM Epoch: 24 lr: 0.000000e+00
+04/05 08:58:37 PM TRAIN Step: 000 Objs: 4.051515e-04 R1: 100.000000 R5: 100.000000
+04/05 08:59:59 PM Train_acc 100.000000
+04/05 08:59:59 PM Epoch time: 130s
+04/05 09:00:20 PM valid 000 3.474464e-03 100.000000 100.000000
+04/05 09:00:33 PM Valid_acc 99.637680
+04/05 09:00:34 PM switches_normal = [[True, False, False, True, True, True, False, True], [False, True, False, True, False, True, True, True], [True, False, True, False, True, True, False, True], [False, True, False, False, True, True, True, True], [True, True, False, False, True, False, True, True], [True, False, False, False, True, True, True, True], [True, True, False, True, False, True, True, False], [True, False, False, False, True, True, True, True], [False, True, True, False, True, True, False, True], [True, False, False, False, True, True, True, True], [False, True, False, False, True, True, True, True], [True, True, True, False, False, False, True, True], [False, True, True, True, False, True, False, True], [True, True, True, True, True, False, False, False]]
+04/05 09:00:34 PM ['none', 'skip_connect', 'sep_conv_3x3', 'sep_conv_5x5', 'dil_conv_5x5']
+04/05 09:00:34 PM ['max_pool_3x3', 'skip_connect', 'sep_conv_5x5', 'dil_conv_3x3', 'dil_conv_5x5']
+04/05 09:00:34 PM ['none', 'avg_pool_3x3', 'sep_conv_3x3', 'sep_conv_5x5', 'dil_conv_5x5']
+04/05 09:00:34 PM ['max_pool_3x3', 'sep_conv_3x3', 'sep_conv_5x5', 'dil_conv_3x3', 'dil_conv_5x5']
+04/05 09:00:34 PM ['none', 'max_pool_3x3', 'sep_conv_3x3', 'dil_conv_3x3', 'dil_conv_5x5']
+04/05 09:00:34 PM ['none', 'sep_conv_3x3', 'sep_conv_5x5', 'dil_conv_3x3', 'dil_conv_5x5']
+04/05 09:00:34 PM ['none', 'max_pool_3x3', 'skip_connect', 'sep_conv_5x5', 'dil_conv_3x3']
+04/05 09:00:34 PM ['none', 'sep_conv_3x3', 'sep_conv_5x5', 'dil_conv_3x3', 'dil_conv_5x5']
+04/05 09:00:34 PM ['max_pool_3x3', 'avg_pool_3x3', 'sep_conv_3x3', 'sep_conv_5x5', 'dil_conv_5x5']
+04/05 09:00:34 PM ['none', 'sep_conv_3x3', 'sep_conv_5x5', 'dil_conv_3x3', 'dil_conv_5x5']
+04/05 09:00:34 PM ['max_pool_3x3', 'sep_conv_3x3', 'sep_conv_5x5', 'dil_conv_3x3', 'dil_conv_5x5']
+04/05 09:00:34 PM ['none', 'max_pool_3x3', 'avg_pool_3x3', 'dil_conv_3x3', 'dil_conv_5x5']
+04/05 09:00:34 PM ['max_pool_3x3', 'avg_pool_3x3', 'skip_connect', 'sep_conv_5x5', 'dil_conv_5x5']
+04/05 09:00:34 PM ['none', 'max_pool_3x3', 'avg_pool_3x3', 'skip_connect', 'sep_conv_3x3']
+04/05 09:00:34 PM switches_reduce = [[False, True, False, True, True, True, False, True], [True, False, False, True, False, True, True, True], [True, True, False, True, True, True, False, False], [True, False, True, False, True, True, True, False], [False, True, True, True, False, False, True, True], [True, False, False, True, True, True, False, True], [True, False, False, True, True, True, True, False], [False, True, True, False, True, True, False, True], [False, True, False, False, True, True, True, True], [True, True, False, True, True, False, True, False], [False, False, False, True, True, True, True, True], [False, True, True, True, True, True, False, False], [False, True, False, False, True, True, True, True], [False, True, True, True, False, False, True, True]]
+04/05 09:00:34 PM ['max_pool_3x3', 'skip_connect', 'sep_conv_3x3', 'sep_conv_5x5', 'dil_conv_5x5']
+04/05 09:00:34 PM ['none', 'skip_connect', 'sep_conv_5x5', 'dil_conv_3x3', 'dil_conv_5x5']
+04/05 09:00:34 PM ['none', 'max_pool_3x3', 'skip_connect', 'sep_conv_3x3', 'sep_conv_5x5']
+04/05 09:00:34 PM ['none', 'avg_pool_3x3', 'sep_conv_3x3', 'sep_conv_5x5', 'dil_conv_3x3']
+04/05 09:00:34 PM ['max_pool_3x3', 'avg_pool_3x3', 'skip_connect', 'dil_conv_3x3', 'dil_conv_5x5']
+04/05 09:00:34 PM ['none', 'skip_connect', 'sep_conv_3x3', 'sep_conv_5x5', 'dil_conv_5x5']
+04/05 09:00:34 PM ['none', 'skip_connect', 'sep_conv_3x3', 'sep_conv_5x5', 'dil_conv_3x3']
+04/05 09:00:34 PM ['max_pool_3x3', 'avg_pool_3x3', 'sep_conv_3x3', 'sep_conv_5x5', 'dil_conv_5x5']
+04/05 09:00:34 PM ['max_pool_3x3', 'sep_conv_3x3', 'sep_conv_5x5', 'dil_conv_3x3', 'dil_conv_5x5']
+04/05 09:00:34 PM ['none', 'max_pool_3x3', 'skip_connect', 'sep_conv_3x3', 'dil_conv_3x3']
+04/05 09:00:34 PM ['skip_connect', 'sep_conv_3x3', 'sep_conv_5x5', 'dil_conv_3x3', 'dil_conv_5x5']
+04/05 09:00:34 PM ['max_pool_3x3', 'avg_pool_3x3', 'skip_connect', 'sep_conv_3x3', 'sep_conv_5x5']
+04/05 09:00:34 PM ['max_pool_3x3', 'sep_conv_3x3', 'sep_conv_5x5', 'dil_conv_3x3', 'dil_conv_5x5']
+04/05 09:00:34 PM ['max_pool_3x3', 'avg_pool_3x3', 'skip_connect', 'dil_conv_3x3', 'dil_conv_5x5']
+04/05 09:00:35 PM param size = 1.983502MB
+04/05 09:00:35 PM Epoch: 0 lr: 2.480326e-02
+04/05 09:01:29 PM TRAIN Step: 000 Objs: 8.200581e-01 R1: 25.000000 R5: 100.000000
+04/05 09:03:03 PM Train_acc 84.420287
+04/05 09:03:03 PM Epoch time: 147s
+04/05 09:03:03 PM Epoch: 1 lr: 2.431662e-02
+04/05 09:03:35 PM TRAIN Step: 000 Objs: 8.242194e-02 R1: 98.958328 R5: 100.000000
+04/05 09:05:00 PM Train_acc 99.275360
+04/05 09:05:00 PM Epoch time: 116s
+04/05 09:05:00 PM Epoch: 2 lr: 2.364669e-02
+04/05 09:05:54 PM TRAIN Step: 000 Objs: 3.944295e-02 R1: 98.958328 R5: 100.000000
+04/05 09:07:34 PM Train_acc 98.792268
+04/05 09:07:34 PM Epoch time: 153s
+04/05 09:07:34 PM Epoch: 3 lr: 2.280398e-02
+04/05 09:08:16 PM TRAIN Step: 000 Objs: 5.341111e-03 R1: 100.000000 R5: 100.000000
+04/05 09:10:07 PM Train_acc 98.792267
+04/05 09:10:07 PM Epoch time: 152s
+04/05 09:10:07 PM Epoch: 4 lr: 2.180176e-02
+04/05 09:11:01 PM TRAIN Step: 000 Objs: 3.503361e-02 R1: 98.958328 R5: 100.000000
+04/05 09:12:48 PM Train_acc 98.913041
+04/05 09:12:48 PM Epoch time: 161s
+04/05 09:12:48 PM Epoch: 5 lr: 2.065578e-02
+04/05 09:13:34 PM TRAIN Step: 000 Objs: 2.176686e-02 R1: 98.958328 R5: 100.000000
+04/05 09:15:22 PM Train_acc 99.154586
+04/05 09:15:22 PM Epoch time: 153s
+04/05 09:15:22 PM Epoch: 6 lr: 1.938408e-02
+04/05 09:16:10 PM TRAIN Step: 000 Objs: 1.780951e-03 R1: 100.000000 R5: 100.000000
+04/05 09:17:46 PM Train_acc 99.516907
+04/05 09:17:46 PM Epoch time: 144s
+04/05 09:17:46 PM Epoch: 7 lr: 1.800667e-02
+04/05 09:18:38 PM TRAIN Step: 000 Objs: 2.407844e-03 R1: 100.000000 R5: 100.000000
+04/05 09:20:23 PM Train_acc 99.758453
+04/05 09:20:23 PM Epoch time: 156s
+04/05 09:20:23 PM Epoch: 8 lr: 1.654521e-02
+04/05 09:21:10 PM TRAIN Step: 000 Objs: 5.876767e-04 R1: 100.000000 R5: 100.000000
+04/05 09:23:02 PM Train_acc 99.637679
+04/05 09:23:02 PM Epoch time: 159s
+04/05 09:23:02 PM Epoch: 9 lr: 1.502271e-02
+04/05 09:23:47 PM TRAIN Step: 000 Objs: 5.253355e-04 R1: 100.000000 R5: 100.000000
+04/05 09:25:27 PM Train_acc 99.879226
+04/05 09:25:27 PM Epoch time: 145s
+04/05 09:25:27 PM Epoch: 10 lr: 1.346310e-02
+04/05 09:26:25 PM TRAIN Step: 000 Objs: 1.809119e-03 R1: 100.000000 R5: 100.000000
+04/05 09:30:10 PM Train_acc 99.758453
+04/05 09:30:10 PM Epoch time: 282s
+04/05 09:30:10 PM Epoch: 11 lr: 1.189091e-02
+04/05 09:31:16 PM TRAIN Step: 000 Objs: 3.837462e-04 R1: 100.000000 R5: 100.000000
+04/05 09:35:00 PM Train_acc 99.879226
+04/05 09:35:00 PM Epoch time: 290s
+04/05 09:35:00 PM Epoch: 12 lr: 1.033084e-02
+04/05 09:35:53 PM TRAIN Step: 000 Objs: 4.861577e-04 R1: 100.000000 R5: 100.000000
+04/05 09:39:36 PM Train_acc 99.879226
+04/05 09:39:36 PM Epoch time: 276s
+04/05 09:39:36 PM Epoch: 13 lr: 8.807384e-03
+04/05 09:40:38 PM TRAIN Step: 000 Objs: 2.748377e-04 R1: 100.000000 R5: 100.000000
+04/05 09:44:16 PM Train_acc 99.879226
+04/05 09:44:16 PM Epoch time: 279s
+04/05 09:44:16 PM Epoch: 14 lr: 7.344427e-03
+04/05 09:45:24 PM TRAIN Step: 000 Objs: 2.492901e-04 R1: 100.000000 R5: 100.000000
+04/05 09:49:04 PM Train_acc 100.000000
+04/05 09:49:04 PM Epoch time: 288s
+04/05 09:49:04 PM Epoch: 15 lr: 5.964861e-03
+04/05 09:50:13 PM TRAIN Step: 000 Objs: 8.738480e-04 R1: 100.000000 R5: 100.000000
+04/05 09:53:56 PM Train_acc 100.000000
+04/05 09:53:56 PM Epoch time: 292s
+04/05 09:53:56 PM Epoch: 16 lr: 4.690199e-03
+04/05 09:55:06 PM TRAIN Step: 000 Objs: 1.089881e-03 R1: 100.000000 R5: 100.000000
+04/05 09:58:47 PM Train_acc 100.000000
+04/05 09:58:47 PM Epoch time: 290s
+04/05 09:58:47 PM Epoch: 17 lr: 3.540202e-03
+04/05 09:59:33 PM TRAIN Step: 000 Objs: 2.280729e-04 R1: 100.000000 R5: 100.000000
+04/05 10:02:42 PM Train_acc 100.000000
+04/05 10:02:42 PM Epoch time: 235s
+04/05 10:02:42 PM Epoch: 18 lr: 2.532504e-03
+04/05 10:03:27 PM TRAIN Step: 000 Objs: 5.306563e-04 R1: 100.000000 R5: 100.000000
+04/05 10:06:42 PM Train_acc 100.000000
+04/05 10:06:42 PM Epoch time: 239s
+04/05 10:06:42 PM Epoch: 19 lr: 1.682209e-03
+04/05 10:07:40 PM TRAIN Step: 000 Objs: 1.665826e-04 R1: 100.000000 R5: 100.000000
+04/05 10:10:51 PM Train_acc 100.000000
+04/05 10:10:51 PM Epoch time: 248s
+04/05 10:10:51 PM Epoch: 20 lr: 1.001400e-03
+04/05 10:11:44 PM TRAIN Step: 000 Objs: 4.767173e-04 R1: 100.000000 R5: 100.000000
+04/05 10:14:55 PM Train_acc 100.000000
+04/05 10:14:55 PM Epoch time: 244s
+04/05 10:14:55 PM Epoch: 21 lr: 4.983436e-04
+04/05 10:15:50 PM TRAIN Step: 000 Objs: 3.368007e-04 R1: 100.000000 R5: 100.000000
+04/05 10:19:01 PM Train_acc 100.000000
+04/05 10:19:01 PM Epoch time: 246s
+04/05 10:19:19 PM valid 000 9.029660e-02 98.958328 100.000000
+04/05 10:19:35 PM Valid_acc 99.758453
+04/05 10:19:35 PM Epoch: 22 lr: 1.756922e-04
+04/05 10:20:32 PM TRAIN Step: 000 Objs: 2.520038e-04 R1: 100.000000 R5: 100.000000
+04/05 10:23:43 PM Train_acc 100.000000
+04/05 10:23:43 PM Epoch time: 247s
+04/05 10:23:59 PM valid 000 5.109047e-03 100.000000 100.000000
+04/05 10:24:15 PM Valid_acc 99.879226
+04/05 10:24:15 PM Epoch: 23 lr: 2.473910e-05
+04/05 10:25:10 PM TRAIN Step: 000 Objs: 2.423200e-04 R1: 100.000000 R5: 100.000000
+04/05 10:28:24 PM Train_acc 100.000000
+04/05 10:28:24 PM Epoch time: 248s
+04/05 10:28:42 PM valid 000 3.007910e-03 100.000000 100.000000
+04/05 10:28:58 PM Valid_acc 99.879226
+04/05 10:28:58 PM Epoch: 24 lr: 0.000000e+00
+04/05 10:29:57 PM TRAIN Step: 000 Objs: 6.669500e-04 R1: 100.000000 R5: 100.000000
+04/05 10:33:08 PM Train_acc 100.000000
+04/05 10:33:08 PM Epoch time: 250s
+04/05 10:33:20 PM valid 000 3.345602e-04 100.000000 100.000000
+04/05 10:33:35 PM Valid_acc 99.758453
+04/05 10:33:36 PM switches_normal = [[True, False, False, True, False, True, False, False], [False, True, False, False, False, True, True, False], [False, False, True, False, True, True, False, False], [False, False, False, False, True, True, False, True], [True, False, False, False, True, False, True, False], [True, False, False, False, False, True, False, True], [True, False, False, False, False, True, True, False], [True, False, False, False, True, True, False, False], [False, True, True, False, False, True, False, False], [False, False, False, False, True, True, False, True], [False, False, False, False, True, True, False, True], [False, True, True, False, False, False, False, True], [False, True, True, True, False, False, False, False], [True, True, False, False, True, False, False, False]]
+04/05 10:33:36 PM ['none', 'skip_connect', 'sep_conv_5x5']
+04/05 10:33:36 PM ['max_pool_3x3', 'sep_conv_5x5', 'dil_conv_3x3']
+04/05 10:33:36 PM ['avg_pool_3x3', 'sep_conv_3x3', 'sep_conv_5x5']
+04/05 10:33:36 PM ['sep_conv_3x3', 'sep_conv_5x5', 'dil_conv_5x5']
+04/05 10:33:36 PM ['none', 'sep_conv_3x3', 'dil_conv_3x3']
+04/05 10:33:36 PM ['none', 'sep_conv_5x5', 'dil_conv_5x5']
+04/05 10:33:36 PM ['none', 'sep_conv_5x5', 'dil_conv_3x3']
+04/05 10:33:36 PM ['none', 'sep_conv_3x3', 'sep_conv_5x5']
+04/05 10:33:36 PM ['max_pool_3x3', 'avg_pool_3x3', 'sep_conv_5x5']
+04/05 10:33:36 PM ['sep_conv_3x3', 'sep_conv_5x5', 'dil_conv_5x5']
+04/05 10:33:36 PM ['sep_conv_3x3', 'sep_conv_5x5', 'dil_conv_5x5']
+04/05 10:33:36 PM ['max_pool_3x3', 'avg_pool_3x3', 'dil_conv_5x5']
+04/05 10:33:36 PM ['max_pool_3x3', 'avg_pool_3x3', 'skip_connect']
+04/05 10:33:36 PM ['none', 'max_pool_3x3', 'sep_conv_3x3']
+04/05 10:33:36 PM switches_reduce = [[False, True, False, True, False, False, False, True], [True, False, False, True, False, True, False, False], [True, True, False, False, False, True, False, False], [True, False, False, False, True, True, False, False], [False, True, False, False, False, False, True, True], [True, False, False, False, True, True, False, False], [True, False, False, False, True, False, True, False], [False, True, True, False, False, True, False, False], [False, True, False, False, True, False, False, True], [True, True, False, False, False, False, True, False], [False, False, False, True, False, True, True, False], [False, True, True, False, False, True, False, False], [False, True, False, False, True, False, True, False], [False, True, True, True, False, False, False, False]]
+04/05 10:33:36 PM ['max_pool_3x3', 'skip_connect', 'dil_conv_5x5']
+04/05 10:33:36 PM ['none', 'skip_connect', 'sep_conv_5x5']
+04/05 10:33:36 PM ['none', 'max_pool_3x3', 'sep_conv_5x5']
+04/05 10:33:36 PM ['none', 'sep_conv_3x3', 'sep_conv_5x5']
+04/05 10:33:36 PM ['max_pool_3x3', 'dil_conv_3x3', 'dil_conv_5x5']
+04/05 10:33:36 PM ['none', 'sep_conv_3x3', 'sep_conv_5x5']
+04/05 10:33:36 PM ['none', 'sep_conv_3x3', 'dil_conv_3x3']
+04/05 10:33:36 PM ['max_pool_3x3', 'avg_pool_3x3', 'sep_conv_5x5']
+04/05 10:33:36 PM ['max_pool_3x3', 'sep_conv_3x3', 'dil_conv_5x5']
+04/05 10:33:36 PM ['none', 'max_pool_3x3', 'dil_conv_3x3']
+04/05 10:33:36 PM ['skip_connect', 'sep_conv_5x5', 'dil_conv_3x3']
+04/05 10:33:36 PM ['max_pool_3x3', 'avg_pool_3x3', 'sep_conv_5x5']
+04/05 10:33:36 PM ['max_pool_3x3', 'sep_conv_3x3', 'dil_conv_3x3']
+04/05 10:33:36 PM ['max_pool_3x3', 'avg_pool_3x3', 'skip_connect']
+04/05 10:33:36 PM param size = 2.023238MB
+04/05 10:33:36 PM Epoch: 0 lr: 2.480326e-02
+04/05 10:34:07 PM TRAIN Step: 000 Objs: 1.059581e+00 R1: 42.708332 R5: 100.000000
+04/05 10:35:41 PM Train_acc 58.091785
+04/05 10:35:41 PM Epoch time: 124s
+04/05 10:35:41 PM Epoch: 1 lr: 2.431662e-02
+04/05 10:36:11 PM TRAIN Step: 000 Objs: 5.624197e-02 R1: 98.958328 R5: 100.000000
+04/05 10:37:45 PM Train_acc 99.033813
+04/05 10:37:45 PM Epoch time: 124s
+04/05 10:37:45 PM Epoch: 2 lr: 2.364669e-02
+04/05 10:38:17 PM TRAIN Step: 000 Objs: 2.000606e-01 R1: 97.916664 R5: 100.000000
+04/05 10:39:51 PM Train_acc 99.396133
+04/05 10:39:51 PM Epoch time: 125s
+04/05 10:39:51 PM Epoch: 3 lr: 2.280398e-02
+04/05 10:40:21 PM TRAIN Step: 000 Objs: 4.670717e-04 R1: 100.000000 R5: 100.000000
+04/05 10:41:55 PM Train_acc 99.516907
+04/05 10:41:55 PM Epoch time: 124s
+04/05 10:41:55 PM Epoch: 4 lr: 2.180176e-02
+04/05 10:42:26 PM TRAIN Step: 000 Objs: 1.350623e-02 R1: 98.958328 R5: 100.000000
+04/05 10:44:00 PM Train_acc 99.275360
+04/05 10:44:00 PM Epoch time: 124s
+04/05 10:44:00 PM Epoch: 5 lr: 2.065578e-02
+04/05 10:44:30 PM TRAIN Step: 000 Objs: 1.213458e-01 R1: 97.916664 R5: 100.000000
+04/05 10:46:04 PM Train_acc 98.792268
+04/05 10:46:04 PM Epoch time: 123s
+04/05 10:46:04 PM Epoch: 6 lr: 1.938408e-02
+04/05 10:46:34 PM TRAIN Step: 000 Objs: 3.639004e-03 R1: 100.000000 R5: 100.000000
+04/05 10:48:08 PM Train_acc 99.396133
+04/05 10:48:08 PM Epoch time: 124s
+04/05 10:48:08 PM Epoch: 7 lr: 1.800667e-02
+04/05 10:48:39 PM TRAIN Step: 000 Objs: 7.233037e-03 R1: 100.000000 R5: 100.000000
+04/05 10:50:12 PM Train_acc 99.154588
+04/05 10:50:12 PM Epoch time: 124s
+04/05 10:50:12 PM Epoch: 8 lr: 1.654521e-02
+04/05 10:50:43 PM TRAIN Step: 000 Objs: 1.034013e-02 R1: 100.000000 R5: 100.000000
+04/05 10:52:17 PM Train_acc 99.154587
+04/05 10:52:17 PM Epoch time: 124s
+04/05 10:52:17 PM Epoch: 9 lr: 1.502271e-02
+04/05 10:52:48 PM TRAIN Step: 000 Objs: 9.478718e-03 R1: 100.000000 R5: 100.000000
+04/05 10:54:21 PM Train_acc 99.396133
+04/05 10:54:21 PM Epoch time: 124s
+04/05 10:54:21 PM Epoch: 10 lr: 1.346310e-02
+04/05 10:55:04 PM TRAIN Step: 000 Objs: 6.099338e-02 R1: 98.958328 R5: 100.000000
+04/05 10:58:10 PM Train_acc 99.275361
+04/05 10:58:10 PM Epoch time: 228s
+04/05 10:58:10 PM Epoch: 11 lr: 1.189091e-02
+04/05 10:58:53 PM TRAIN Step: 000 Objs: 9.500019e-03 R1: 100.000000 R5: 100.000000
+04/05 11:01:59 PM Train_acc 99.637680
+04/05 11:01:59 PM Epoch time: 228s
+04/05 11:01:59 PM Epoch: 12 lr: 1.033084e-02
+04/05 11:02:42 PM TRAIN Step: 000 Objs: 2.619718e-02 R1: 98.958328 R5: 100.000000
+04/05 11:05:48 PM Train_acc 99.637679
+04/05 11:05:48 PM Epoch time: 228s
+04/05 11:05:48 PM Epoch: 13 lr: 8.807384e-03
+04/05 11:06:31 PM TRAIN Step: 000 Objs: 2.223646e-03 R1: 100.000000 R5: 100.000000
+04/05 11:09:36 PM Train_acc 99.516908
+04/05 11:09:36 PM Epoch time: 228s
+04/05 11:09:36 PM Epoch: 14 lr: 7.344427e-03
+04/05 11:10:20 PM TRAIN Step: 000 Objs: 1.066068e-02 R1: 100.000000 R5: 100.000000
+04/05 11:13:26 PM Train_acc 99.396134
+04/05 11:13:26 PM Epoch time: 229s
+04/05 11:13:26 PM Epoch: 15 lr: 5.964861e-03
+04/05 11:14:09 PM TRAIN Step: 000 Objs: 1.205358e-03 R1: 100.000000 R5: 100.000000
+04/05 11:17:15 PM Train_acc 99.637679
+04/05 11:17:15 PM Epoch time: 229s
+04/05 11:17:15 PM Epoch: 16 lr: 4.690199e-03
+04/05 11:17:59 PM TRAIN Step: 000 Objs: 8.010989e-02 R1: 98.958328 R5: 100.000000
+04/05 11:21:04 PM Train_acc 99.516907
+04/05 11:21:04 PM Epoch time: 229s
+04/05 11:21:04 PM Epoch: 17 lr: 3.540202e-03
+04/05 11:21:47 PM TRAIN Step: 000 Objs: 1.177618e-02 R1: 100.000000 R5: 100.000000
+04/05 11:24:53 PM Train_acc 99.637679
+04/05 11:24:53 PM Epoch time: 228s
+04/05 11:24:53 PM Epoch: 18 lr: 2.532504e-03
+04/05 11:25:35 PM TRAIN Step: 000 Objs: 8.981533e-04 R1: 100.000000 R5: 100.000000
+04/05 11:28:41 PM Train_acc 99.758453
+04/05 11:28:41 PM Epoch time: 228s
+04/05 11:28:41 PM Epoch: 19 lr: 1.682209e-03
+04/05 11:29:23 PM TRAIN Step: 000 Objs: 6.569035e-02 R1: 98.958328 R5: 100.000000
+04/05 11:32:29 PM Train_acc 99.758453
+04/05 11:32:29 PM Epoch time: 228s
+04/05 11:32:29 PM Epoch: 20 lr: 1.001400e-03
+04/05 11:33:12 PM TRAIN Step: 000 Objs: 2.500983e-03 R1: 100.000000 R5: 100.000000
+04/05 11:36:18 PM Train_acc 99.879227
+04/05 11:36:18 PM Epoch time: 228s
+04/05 11:36:18 PM Epoch: 21 lr: 4.983436e-04
+04/05 11:37:01 PM TRAIN Step: 000 Objs: 4.537531e-03 R1: 100.000000 R5: 100.000000
+04/05 11:40:07 PM Train_acc 99.637680
+04/05 11:40:07 PM Epoch time: 229s
+04/05 11:40:19 PM valid 000 7.117014e-03 100.000000 100.000000
+04/05 11:40:34 PM Valid_acc 98.913041
+04/05 11:40:34 PM Epoch: 22 lr: 1.756922e-04
+04/05 11:41:17 PM TRAIN Step: 000 Objs: 1.425630e-02 R1: 98.958328 R5: 100.000000
+04/05 11:44:23 PM Train_acc 99.758453
+04/05 11:44:23 PM Epoch time: 228s
+04/05 11:44:35 PM valid 000 9.373713e-04 100.000000 100.000000
+04/05 11:44:50 PM Valid_acc 98.550722
+04/05 11:44:50 PM Epoch: 23 lr: 2.473910e-05
+04/05 11:45:33 PM TRAIN Step: 000 Objs: 4.116894e-03 R1: 100.000000 R5: 100.000000
+04/05 11:48:39 PM Train_acc 99.879226
+04/05 11:48:39 PM Epoch time: 228s
+04/05 11:48:50 PM valid 000 1.431167e-01 97.916664 100.000000
+04/05 11:49:05 PM Valid_acc 98.913041
+04/05 11:49:05 PM Epoch: 24 lr: 0.000000e+00
+04/05 11:49:49 PM TRAIN Step: 000 Objs: 2.052707e-03 R1: 100.000000 R5: 100.000000
+04/05 11:52:54 PM Train_acc 99.879226
+04/05 11:52:54 PM Epoch time: 229s
+04/05 11:53:06 PM valid 000 1.900887e-02 98.958328 100.000000
+04/05 11:53:21 PM Valid_acc 98.792268
+04/05 11:53:22 PM switches_normal = [[False, False, False, False, False, True, False, False], [False, False, False, False, False, False, True, False], [False, False, False, False, True, False, False, False], [False, False, False, False, False, True, False, False], [False, False, False, False, True, False, False, False], [False, False, False, False, False, False, False, True], [False, False, False, False, False, True, False, False], [False, False, False, False, False, True, False, False], [False, False, True, False, False, False, False, False], [False, False, False, False, False, False, False, True], [False, False, False, False, False, False, False, True], [False, False, False, False, False, False, False, True], [False, False, True, False, False, False, False, False], [False, True, False, False, False, False, False, False]]
+04/05 11:53:22 PM ['sep_conv_5x5']
+04/05 11:53:22 PM ['dil_conv_3x3']
+04/05 11:53:22 PM ['sep_conv_3x3']
+04/05 11:53:22 PM ['sep_conv_5x5']
+04/05 11:53:22 PM ['sep_conv_3x3']
+04/05 11:53:22 PM ['dil_conv_5x5']
+04/05 11:53:22 PM ['sep_conv_5x5']
+04/05 11:53:22 PM ['sep_conv_5x5']
+04/05 11:53:22 PM ['avg_pool_3x3']
+04/05 11:53:22 PM ['dil_conv_5x5']
+04/05 11:53:22 PM ['dil_conv_5x5']
+04/05 11:53:22 PM ['dil_conv_5x5']
+04/05 11:53:22 PM ['avg_pool_3x3']
+04/05 11:53:22 PM ['max_pool_3x3']
+04/05 11:53:22 PM switches_reduce = [[False, True, False, False, False, False, False, False], [False, False, False, True, False, False, False, False], [False, True, False, False, False, False, False, False], [False, False, False, False, False, True, False, False], [False, False, False, False, False, False, True, False], [False, False, False, False, True, False, False, False], [False, False, False, False, True, False, False, False], [False, True, False, False, False, False, False, False], [False, True, False, False, False, False, False, False], [False, True, False, False, False, False, False, False], [False, False, False, True, False, False, False, False], [False, False, True, False, False, False, False, False], [False, False, False, False, False, False, True, False], [False, False, True, False, False, False, False, False]]
+04/05 11:53:22 PM ['max_pool_3x3']
+04/05 11:53:22 PM ['skip_connect']
+04/05 11:53:22 PM ['max_pool_3x3']
+04/05 11:53:22 PM ['sep_conv_5x5']
+04/05 11:53:22 PM ['dil_conv_3x3']
+04/05 11:53:22 PM ['sep_conv_3x3']
+04/05 11:53:22 PM ['sep_conv_3x3']
+04/05 11:53:22 PM ['max_pool_3x3']
+04/05 11:53:22 PM ['max_pool_3x3']
+04/05 11:53:22 PM ['max_pool_3x3']
+04/05 11:53:22 PM ['skip_connect']
+04/05 11:53:22 PM ['avg_pool_3x3']
+04/05 11:53:22 PM ['dil_conv_3x3']
+04/05 11:53:22 PM ['avg_pool_3x3']
+04/05 11:53:22 PM Genotype(normal=[('sep_conv_5x5', 0), ('dil_conv_3x3', 1), ('sep_conv_3x3', 0), ('sep_conv_5x5', 1), ('sep_conv_5x5', 2), ('avg_pool_3x3', 3), ('dil_conv_5x5', 0), ('dil_conv_5x5', 1)], normal_concat=range(2, 6), reduce=[('max_pool_3x3', 0), ('skip_connect', 1), ('max_pool_3x3', 0), ('dil_conv_3x3', 2), ('max_pool_3x3', 2), ('max_pool_3x3', 3), ('skip_connect', 1), ('avg_pool_3x3', 4)], reduce_concat=range(2, 6))
+04/05 11:53:22 PM Restricting skipconnect...
+04/05 11:53:22 PM Total searching time: 13088s
