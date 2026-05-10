@@ -1,0 +1,47 @@
+PROBLEM STATEMENT
+The rise of IoT/IIoT devices and encrypted network traffic has made malware detection increasingly difficult, with over 91.5% of malware now hidden inside encrypted connections. Traditional methods like Deep Packet Inspection fail against encrypted traffic, while existing deep learning models rely on a single traffic representation — either visual or statistical — limiting their detection capability. These single-modality models also suffer from catastrophic forgetting when new attack types emerge and are easily deceived by traffic obfuscation strategies like dummy packet injection. No existing work unifies both visual and semantic traffic modalities in a single framework that addresses incremental learning and obfuscation robustness simultaneously.
+
+
+
+
+
+
+🎯 AIM
+To develop a Multimodal Malware Traffic Classification framework that combines visual traffic representation and semantic attribute features through a late-fusion deep learning architecture, enabling accurate, robust, and incremental detection of malware in evolving network environments including IoT and IIoT systems.
+
+
+
+🎯 OBJECTIVES
+
+To design a dual-modal traffic representation pipeline that converts raw network traffic into both 28×28 grayscale images (visual modality) and Semantic Attribute Matrices (semantic modality), capturing complementary raw-byte patterns and statistical flow behaviors simultaneously.
+To implement and integrate Paper 1's CIL-MTC model — a PDARTS-based neural architecture search combined with expandable class incremental learning — as the visual branch of the multimodal framework, enabling the system to continuously learn new malware categories without forgetting old ones.
+To implement and integrate Paper 2's SmartDetector model — a contrastive learning-based encoder using SAM representation — as the semantic branch, enabling robust detection of obfuscated malicious encrypted traffic with minimal labeled samples.
+To design a late-fusion bridge that concatenates the feature vectors from both independently trained branches and trains a joint classification head, producing a final malware traffic prediction that is more accurate than either single model alone.
+To evaluate the multimodal framework against each individual model baseline, demonstrating that fusion of visual and semantic modalities improves classification accuracy, robustness against obfuscation, and adaptability to new attack categories.
+
+🌍 SOCIAL IMPACT
+1. Enhanced Cybersecurity Defense:
+Strengthens the security of organizations, governments, and critical infrastructure by accurately detecting malware threats hidden in encrypted traffic that single-modality systems miss.
+2. IoT and IIoT Protection:
+Safeguards smart homes, hospitals, and industrial systems from DDoS, zero-day, and backdoor attacks by providing a detection framework tailored for resource-constrained IoT/IIoT environments.
+3. Safer Digital Transactions:
+Protects banking, e-commerce, and financial networks from malware concealed in encrypted channels, reducing cybercrime losses and maintaining public trust in digital services.
+4. Faster Threat Response:
+Automating traffic classification reduces manual workload for security analysts and enables faster incident detection and response with fewer labeled training samples.
+5. Adaptable to Evolving Threats:
+Incremental learning allows the system to recognize newly emerging malware categories without retraining from scratch, keeping defenses current against evolving attack landscapes.
+
+
+
+
+
+
+
+
+
+The key conclusions drawn from this work are:
+
+Dual modality is effective — representing the same network traffic as both grayscale images and semantic attribute matrices provides complementary features that improve overall classification accuracy.
+Incremental learning is preserved — the CIL branch enables the system to continuously learn new malware categories without forgetting previously learned knowledge, addressing the catastrophic forgetting problem.
+Obfuscation robustness is maintained — the contrastive learning branch handles traffic obfuscation strategies such as dummy packet injection that defeat traditional classifiers.
+Late fusion is practical — training both models independently and combining at the feature level allows each model to retain its original optimization while the fusion head learns cross-modal patterns.
